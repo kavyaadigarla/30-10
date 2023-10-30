@@ -1,0 +1,31 @@
+amount=int(input())
+fhc=0
+thc=0
+ohc=0
+ftc=0
+tc=0
+ten=0
+while(amount>=500):
+    fhc=fhc+1
+    amount=amount-500
+while(amount>=200):
+    thc=thc+1
+    amount=amount-200
+while(amount>=100):
+    ohc=ohc+1
+    amount=amount-100
+while(amount>=50):
+    ftc=ftc+1
+    amount=amount=50
+while(amount>=20):
+    tc=tc+1
+    amount=amount-20
+while(amount>=10):
+    ten=ten+1
+    amount=amount-10
+print('500:',fhc)
+print('200:',thc)
+print('100:',ohc)
+print('50:',ftc)
+print('20:',tc)
+print('10:',ten)
